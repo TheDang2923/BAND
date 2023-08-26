@@ -1,0 +1,58 @@
+/*  Mobile */
+@media only screen and (max-width :740px) {
+    #header{
+        overflow: hidden;
+    }
+    .search-btn {
+        display: none;
+    }
+    
+    .menu-btn {
+        display: block;
+    }
+    
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        background-color: #333;
+        position: relative;
+    }
+    #nav .subnav a{
+          color: #fff !important;
+          padding: 0 41px !important;
+    }
+    .rows .band-member {
+        width: 100%;
+    }
+    .rows .tour-item {
+        width: 85%;
+        margin: 10px 0;
+    }
+    #content .content-section {
+        padding: 64px 16px;
+    }
+    .rows {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rows .s-col-half {
+        width: 100% !important;
+        padding: 0;
+    }
+
+    #contact .rows {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form .rows {
+        margin:0;
+    }
+}
