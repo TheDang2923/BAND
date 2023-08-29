@@ -1,5 +1,10 @@
+@media only screen and (max-width :1024px)
+{
+  
+}
+
 /*  Mobile */
-@media only screen and (max-width :740px) {
+@media only screen and (max-width :600px) {
     .sol-ful {
         width:100% !important;
     }
