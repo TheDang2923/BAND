@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .zoo{
+    width: 500px;
+    margin: auto;
+}
+
+
+.write{
+    height: 10px;
+    width: 230px;
+    display: inline-block;
+    margin-right: 90px;
+    
+
+}
+
+
+.zoo-form-tow,
+.zoo-form-three{
+    margin-top: 10px;
+}
+
+.gender{
+    width: 238px;
+}
+.gender_top{
+    height: 20px;
+    margin-right: 99px;
+}
+    
+
+.divcv{
+    display: block;
+    width: 100px;
+   
+}
+    .checkbox{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+.ic{
+    display: flex;
+}
+
+.search{
+    border:  1px solid #333;
+    width: 50px;
+    height: 30px;
+}
+.allc{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.allcv{
+    margin-top: 20px;
+    
+}
+
+.allc_label{
+    width: 100px;
+
+}
+
+.btn{
+margin-top: 15px;
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="zoo">
+        <div class="header">
+            <h1>Zoo Keper Application From</h1>
+            <p> Please complete the from. Mandatory fields are marked with a </p>
+        </div>
+        <div class="zoo-form-one">
+            <form action="">
+                <fieldset>
+                    <legend>CONTACT DETAILS</legend>
+                    <div class="name allc">
+                        <div>
+                            <label for="fname"> Name:</label>
+
+                        </div>
+                        <div>
+                            <input class="write" type="text" id="fname" name="fname" ><br><br>
+
+                        </div>
+                    </div>
+                    <div class="telephone allc">
+                        <div>
+
+                            <label for="lname">Telephone</label>
+                        </div>
+                        <div>
+
+                            <input class="write" type="text" id="lname" name="lname"><br><br>
+                        </div>
+                    </div>
+                    <div class="email  allc">
+                        <div>
+                            <label for="email">Email:</label>
+                        </div>
+                        <div>
+                            <input class="write" type="email" id="email" name="email"><br><br>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="zoo-form-tow">
+            <form action="">
+            
+                <fieldset>
+                    <legend>PERSIONAL INFOMATION</legend>
+                    <div class="allc" >
+                        <div >
+                            <label for="fname">Age</label>
+                        </div>
+                        <div >
+                            <input class="write" type="text" id="fname" name="fname"><br><br>
+                        </div>
+                    </div>
+                    <div class="allc">
+                        <div >
+                            <label for="lname">Gender</label>
+                        </div>
+                        <div >
+                            <div class="write gender_top" >
+                                <select class="gender write  gender_top" >
+                                    <optgroup >
+                                        <option  value=""> Male </option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="allc allcv">
+                        <div class="allc_label">
+                            <label  for="email">When did you first know you wanted to be a zoo keeper?</label>
+                        </div>
+                        <div>
+                                <div style="margin-right: 90px;">
+                                <textarea style="width: 235px ;" cols="30px" rows="6" wrap="off"> 
+                                </textarea>
+                                </div>
+                           
+                        </div>
+                    </div>
+                    <form action="">
+                
+                </form>
+                </fieldset>
+        
+        </form>
+        </div>
+        <div class="zoo-form-three">
+            <form action="">
+            
+                <fieldset class="zoo-form-checkbox">
+                    <legend>OICK YOUR FAVORITE ANIMALS</legend>
+                        <div class="checkbox">
+                            <div class="ic">
+                                <input type="checkbox" id="fname" name="fname"><br>
+                                <label for="fname">Zebra</label>
+
+                            </div>
+                            <div class="ic">
+                                
+                                <input type="checkbox" id="lname" name="lname"><br>
+                                <label for="lname">Cat</label>
+
+                            </div>
+                            <div class="ic">
+                                <input type="checkbox" id="email" name="email"><br>
+                                <label for="email">Anacoda</label>
+
+                            </div>
+                            <div class="ic">
+                                <input type="checkbox" id="birthday" name="birthday"><br>
+                                <label for="birthday">Human</label>
+
+                            </div>
+                        
+                            <div class="ic">
+
+                                <input type="checkbox" id="fname" name="fname"><br>
+                                <label for="fname">Elephant</label>
+                            </div>
+                            <div class="ic">
+
+                                <input type="checkbox" id="lname" name="lname" ><br>
+                                <label for="lname">Wildebeest</label>
+                            </div>
+                        
+                            <div class="ic">
+
+                                <input type="checkbox" id="email" name="email"><br>
+                                <label for="email">Pigeon</label>
+                            </div>
+                            <div class="ic">
+
+                                <input type="checkbox" id="birthday" name="birthday"><br>
+                                <label for="birthday">Crab</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </fieldset>
+        
+        </form>
+        <button class="btn" type="submit" style="height: 25px;">Submit Application</button>
+        </div>
+    
+    
+    </div>
+    
+</body>
+</html>
